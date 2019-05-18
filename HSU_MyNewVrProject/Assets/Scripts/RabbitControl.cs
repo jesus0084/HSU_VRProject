@@ -13,6 +13,9 @@ public class RabbitControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
+        transform.position -= Vector3.forward * Time.deltaTime * 5.0f;
+
     }
+    
 }
